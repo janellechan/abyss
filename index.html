@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Deep Ocean</title>
+	<title>Abyss</title>
 	<style>
 		html,
 		body {
@@ -43,15 +43,15 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art="false"></canvas>
-		<script src="Build/depths.loader.js"></script>
+		<script src="Build/abyss.loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/depths.data",
-				frameworkUrl: "Build/depths.framework.js",
-				codeUrl: "Build/depths.wasm",
+				dataUrl: "Build/abyss.data",
+				frameworkUrl: "Build/abyss.framework.js",
+				codeUrl: "Build/abyss.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "DefaultCompany",
-				productName: "Deep Ocean",
+				productName: "Abyss",
 				productVersion: "0.1",
 			}).then(function (instance) {
 				var canvas = instance.Module.canvas;
