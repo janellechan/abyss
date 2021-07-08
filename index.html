@@ -61,8 +61,8 @@
 					var h;
 
 					if (scaleToFit) {
-						w = window.innerWidth * 0.8;
-						h = window.innerHeight * 0.8;
+						w = window.innerWidth * 0;
+						h = window.innerHeight * 0;
 
 						var r = 1080 / 1920;
 
@@ -71,8 +71,8 @@
 						}
 						h = Math.floor(w * r);
 					} else {
-						w = 1920 * 0.8;
-						h = 1080 * 0.8;
+						w = 1920 * 0;
+						h = 1080 * 0;
 					}
 
 					container.style.width = canvas.style.width = w + "px";
